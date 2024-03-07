@@ -1,0 +1,30 @@
+.main {
+  width: 60vw;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 50px;
+  padding: 40px;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  box-shadow: 45px 20px 100px 0px blue;
+  margin: 150px 0px 0px 240px;
+}
+form {
+  margin-left: 15rem;
+}
+.inp {
+  border-radius: 50px;
+  height: 20px;
+  width: 15em;
+  box-shadow: 6px 5px 2px 0px rgb(21, 0, 128);
+  margin-left: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  outline: none;
+}
+button {
+  margin-left: 100px;
+  border-radius: 20px;
+  width: 10em;
+  height: 50px;
+  background-color: aqua;
+}

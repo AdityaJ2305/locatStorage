@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgb(140, 231, 3);
+    color: white;
+    width: 99vw;
+    background-color: black;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar li{
+    list-style-type: none;
+    font-size: 2rem;
+    border: 2px solid white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 2px; 
+}
+.logout{
+    color:white
+}
+.navbar li:hover{
+    transform: scaleX(1.1) scaleY(1.1);
+    background-color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
